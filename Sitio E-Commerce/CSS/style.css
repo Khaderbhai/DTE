@@ -1,0 +1,252 @@
+header {
+    background-color:rgb(244, 206, 20);
+    display:flex;
+}
+
+.logo {
+    height:44px;
+    border-radius:20px;
+    border:3px solid orangered;
+    margin-right:10px;
+
+}
+
+.referencias {
+    position:absolute;
+    right:20px;
+    display:flex;
+    top:5px;
+}
+
+.referencia {
+    margin-right:20px;
+    border:1px solid black;
+    padding:10px;
+    background-color:orange;
+}
+
+.referencia:hover {
+    transform:translate(0px, 15px);
+    transition: transform 200ms ease;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 {
+        grid-area: 1 / 1 / 4 / 7;
+        border: 7px solid grey;
+        border-radius:15px;
+        justify-content:center;
+        margin-bottom:20px;
+        background-color:rgb(212, 212, 212);
+    }
+    
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: repeat(10, 1fr);
+            grid-column-gap: 10px;
+            grid-row-gap: 10px;
+            background-color:rgb(22, 121, 171);
+
+            }
+            
+            .div1 { grid-area: 1 / 1 / 3 / 7; }
+            .div2 {
+                 grid-area: 3 / 1 / 4 / 7; 
+                 text-align:center;
+
+                }
+           
+                
+            .div5 {
+                 grid-area: 4 / 1 / 6 / 3; 
+                 justify-self:center;
+                 text-align:center;
+                 background-color:aqua;
+                 border-radius:30px;
+                }
+            .div6 {
+                 grid-area: 4 / 3 / 6 / 5; 
+                 justify-self:center;
+                 text-align:center;
+                 background-color:aqua;
+                 border-radius:30px;
+                }
+            .div7 {
+                 grid-area: 4 / 5 / 6 / 7; 
+                 justify-self:center;
+                 text-align:center;
+                 background-color:aqua;
+                 border-radius:30px;
+                }
+            .div8 {
+                 grid-area: 6 / 1 / 8 / 3; 
+                 justify-self:center;
+                 text-align:center;
+                 background-color:aqua;
+                 border-radius:30px;
+                }
+            .div9 {
+                 grid-area: 6 / 3 / 8 / 5; 
+                 justify-self:center;
+                 text-align:center;
+                 background-color:aqua;
+                 border-radius:30px;
+
+                }
+            .div10 {
+                 grid-area: 6 / 5 / 8 / 7; 
+                 justify-self:center;
+                 text-align:center;
+                 background-color:aqua;
+                 border-radius:30px;
+
+                }
+            .div11 {
+                 grid-area: 8 / 1 / 10 / 3; 
+                 justify-self:center;
+                 text-align:center;
+                 background-color:aqua;
+                 border-radius:30px;
+
+                }
+            .div12 {
+                 grid-area: 8 / 3 / 10 / 5; 
+                 justify-self:center;
+                 text-align:center;
+                 background-color:aqua;
+                 border-radius:30px;
+
+                }
+            .div13 {
+                 grid-area: 8 / 5 / 10 / 7; 
+                 justify-self:center;
+                 text-align:center;
+                 background-color:aqua;
+                 border-radius:30px;
+                }
+
+.destacados {
+    transition:transform 200ms ease;
+    border:5px solid orangered;
+}
+
+.destacados:hover {
+    transform:scale(1.1);
+
+}
+
+button {
+    background-color:rgb(244, 206, 20);
+    width:30%;
+    height:7%;
+}
+
+.chakra-petch-regular {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+  }
+
+.tachar {
+    text-decoration:line-through;
+}
+
+    .imagencarrusel {
+        height:375px;
+        position:relative;
+        margin: 0 auto;
+        display:block;
+        border:3px dotted black;
+    }
+
+    .carruseltítulo{
+        color:black;
+        text-align:start;
+        text-decoration:underline;
+        font-size:200%;
+    }
+
+    .carruselsubtítulo {
+        color:black;
+        border:1px solid grey;
+        width:30%;
+        font-size:140%;
+    }
+
+    .carousel-caption d-none d-md-block {
+        position:static;
+        justify-content:end;
+        border:2px solid orange;
+    }
+
+.seccionofertas {
+    background-color:rgb(239, 156, 102);
+}
+
+.col-sm {
+    background-color:rgb(54, 186, 152);
+    border:8px solid rgb(233, 196, 106);
+    margin:10px;
+    padding:50px;
+}
+
+.ofertas {
+    text-align:center;
+}
+
+footer {
+    background-color:rgb(244, 206, 20);
+
+}
+
+.titulocontactos {
+    text-align:center;
+}
+
+.contactos {
+    display:flex;
+    justify-content:space-around;
+}
+
+.carta {
+    border:5px solid brown;
+    height:400px;
+    width:25%;
+}
+
+.redes {
+    background-color:white;
+}
+
+.I {
+    background-image:url(../Imágenes/2023_Facebook_icon.svg);
+    background-size:100%;
+}
+
+.II {
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg);
+    background-size:100%;
+}
+
+.III {
+    background-image:url(https://i.pinimg.com/564x/60/1b/87/601b87294ce9abd2bb417c779606139d.jpg);
+    background-size:150%;
+    background-position:center;
+}
